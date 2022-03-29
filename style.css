@@ -1,0 +1,220 @@
+
+* {
+    padding: 0;
+    margin: 0;
+    vertical-align: baseline;
+    list-style: none;
+    border: 0;
+}
+
+
+body {
+    background-color: #000000;
+    font-family: 'Times New Roman', Times, serif;
+    color: aliceblue;
+}
+
+.flex-container {
+    display: flex;
+}
+
+#name {
+    display: grid;
+    margin-top: 90px;
+    margin-left: 08%;
+    font-size:  23px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#lateral {
+    background-color: rgba(133, 7, 7, 0.568);
+    color: rgb(245, 230, 230);
+    width: 10%;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+#lateralRight {
+background-color: #0e232e;
+color: whitesmoke;
+width: 90%;
+height: 100%;
+text-align: center;
+
+}
+
+.paragraph {
+    writing-mode: vertical-lr;   
+    color: rgb(219, 207, 207)
+}/* texto vertical*/
+
+#card {
+    background-color: #585858;
+    border-radius: 20px(50px, 20px);
+    width: 100%;
+    height: auto;
+    margin-left: 20%;
+    padding-left: 08%;
+}
+
+#borderImage {
+    border: 3px solid;
+    border-image: linear-gradient( 135deg, #f0ebeb 0%, [], #8d6c82 100%) 1;
+    height: 300px;
+}/* borda colorida*/
+
+.imgHeader {
+clip-path: polygon(0% 0%, 0% 70%, 100% 00%);
+width: 180%;
+} /* recorte da imagem do header*/
+
+.ContentImg {
+    filter: drop-shadow(2px 4px 8px #066b03);
+}/* sombra na imagem*/
+
+#striped{
+    background-image: repeating-linear-gradient(-45deg, #000000 0px, #000000 10 px, #0d7cb9 10px,
+    #0e1316 20 px);
+   /* width: 50px;
+    height: 200px;*/
+}
+
+ ::-webkit-scrollbar {
+    width: 15px;
+}
+::-webkit-scrollbar-track {
+    background-color: rgb(43, 7, 7);
+    border-radius: 10px;
+}
+::-webkit-scrollbar-thumb {
+    background-color: rgb(104, 14, 14);
+    border-radius: 38px;
+}
+
+::-webkit-progress-value {
+    background-color: rgb(37, 223, 53);
+    border-radius: 40px;
+  }
+  ::-webkit-progress-bar {
+    background-color: rgb(128, 15, 0);
+    border-radius: 40px;
+  }
+  ::-moz-progress-bar {
+    background-color: rgb(253, 253, 255);
+  }
+
+
+#animationBack {
+    width: 10px;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    vertical-align: baseline;
+    list-style: none;
+    border: 0;
+}
+
+
+body {
+    background-color: #000000;
+    font-family: 'Times New Roman', Times, serif;
+    color: aliceblue;
+}
+
+.flex-container {
+    display: flex;
+}
+
+#name {
+    display: grid;
+    margin-top: 90px;
+    margin-left: 08%;
+    font-size:  23px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#lateral {
+    background-color: rgba(133, 7, 7, 0.568);
+    color: rgb(245, 230, 230);
+    width: 10%;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+#lateralRight {
+background-color: #0e232e;
+color: whitesmoke;
+width: 90%;
+height: 100%;
+text-align: center;
+
+}
+
+.paragraph {
+    writing-mode: vertical-lr;   
+    color: rgb(219, 207, 207)
+}/* texto vertical*/
+
+#card {
+    background-color: #585858;
+    border-radius: 20px(50px, 20px);
+    width: 100%;
+    height: auto;
+    margin-left: 20%;
+    padding-left: 08%;
+}
+
+#borderImage {
+    border: 3px solid;
+    border-image: linear-gradient( 135deg, #f0ebeb 0%, [], #8d6c82 100%) 1;
+    height: 300px;
+}/* borda colorida*/
+
+.imgHeader {
+clip-path: polygon(0% 0%, 0% 70%, 100% 00%);
+width: 180%;
+} /* recorte da imagem do header*/
+
+.ContentImg {
+    filter: drop-shadow(2px 4px 8px #066b03);
+}/* sombra na imagem*/
+
+#striped{
+    background-image: repeating-linear-gradient(-45deg, #000000 0px, #000000 10 px, #0d7cb9 10px,
+    #0e1316 20 px);
+   /* width: 50px;
+    height: 200px;*/
+}
+
+ ::-webkit-scrollbar {
+    width: 15px;
+}
+::-webkit-scrollbar-track {
+    background-color: rgb(43, 7, 7);
+    border-radius: 10px;
+}
+::-webkit-scrollbar-thumb {
+    background-color: rgb(104, 14, 14);
+    border-radius: 38px;
+}
+
+::-webkit-progress-value {
+    background-color: rgb(37, 223, 53);
+    border-radius: 40px;
+  }
+  ::-webkit-progress-bar {
+    background-color: rgb(128, 15, 0);
+    border-radius: 40px;
+  }
+  ::-moz-progress-bar {
+    background-color: rgb(253, 253, 255);
+  }
+
+
+#animationBack {
+    width: 10px;
+}
