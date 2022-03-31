@@ -116,3 +116,22 @@ width: 180%;
 #animationBack {
     width: 10px;
 }
+
+.vidro {
+    background-color: #cf5a0c;
+    backdrop-filter: blur(13px);
+    width: 90%;
+    height: 30px;
+    
+
+}
+
+.curriculo {
+    background-color: rgba(11, 6, 15, 0.2);
+    width: 60%;
+    height: 90px;
+    border-radius: 10px;
+    color: #f7eff4;
+    font-size: 23px;
+    list-style: none;
+}
