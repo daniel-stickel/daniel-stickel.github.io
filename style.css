@@ -126,6 +126,11 @@ width: 100%;
 
 }
 
+button {
+    width: 20%;
+    border-radius: 8%;
+}
+
 .curriculo {
     background-color: rgba(11, 6, 15, 0.2);
     width: 60%;
