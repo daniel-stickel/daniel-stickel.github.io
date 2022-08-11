@@ -18,6 +18,12 @@ body {
     display: flex;
 }
 
+#io {
+    font-size: 100px;
+    margin-top: -150px;
+    color: rgba(255, 255, 255, 0.712);
+}
+
 h1 {
     background-image: 
     linear-gradient(to right, #f7eff4,#14020f);
@@ -35,7 +41,7 @@ h1 {
 }
 
 #lateral {
-    background-color: rgba(133, 7, 7, 0.568);
+    background-color: rgba(17, 7, 71, 0.568);
     color: rgb(245, 230, 230);
     width: 10%;
     position: sticky;
@@ -92,20 +98,20 @@ width: 100%;
     width: 15px;
 }
 ::-webkit-scrollbar-track {
-    background-color: rgb(43, 7, 7);
+    background-color: rgb(39, 75, 116);
     border-radius: 10px;
 }
 ::-webkit-scrollbar-thumb {
-    background-color: rgb(104, 14, 14);
+    background-color: rgb(14, 104, 100);
     border-radius: 38px;
 }
 
 ::-webkit-progress-value {
-    background-color: rgb(37, 223, 53);
+    background-color: rgb(48, 58, 119);
     border-radius: 40px;
   }
   ::-webkit-progress-bar {
-    background-color: rgb(128, 15, 0);
+    background-color: rgb(14, 3, 1);
     border-radius: 40px;
   }
   ::-moz-progress-bar {
@@ -118,7 +124,7 @@ width: 100%;
 }
 
 .vidro {
-    background-color: #cf5a0c;
+    background-color: #060214;
     backdrop-filter: blur(13px);
     width: 90%;
     height: 30px;
@@ -133,7 +139,7 @@ a {
 
 
 button {
-    background-color: #2b556e;
+    background-color: #2a2cb4;
     width: 18%;
     border-radius: 8%;
     margin:20px;
@@ -143,10 +149,11 @@ button {
 
 .curriculo {
     background-color: rgba(11, 6, 15, 0.2);
-    width: 60%;
+    width: 100%;
     height: 90px;
     border-radius: 10px;
-    color: #f7eff4;
-    font-size: 23px;
+    color: #a30f0f;
+    font-size: 38px;
     list-style: none;
+    
 }
