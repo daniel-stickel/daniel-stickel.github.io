@@ -126,9 +126,19 @@ width: 100%;
 
 }
 
+a {
+    text-decoration: none;
+    color: #ebdede;
+}
+
+
 button {
-    width: 20%;
+    background-color: #2b556e;
+    width: 18%;
     border-radius: 8%;
+    margin:20px;
+    
+    
 }
 
 .curriculo {
