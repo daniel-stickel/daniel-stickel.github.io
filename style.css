@@ -55,7 +55,6 @@ color: whitesmoke;
 width: 90%;
 height: 100%;
 text-align: center;
-
 }
 
 .paragraph {
@@ -128,8 +127,6 @@ width: 100%;
     backdrop-filter: blur(13px);
     width: 90%;
     height: 30px;
-    
-
 }
 
 a {
@@ -143,8 +140,6 @@ button {
     width: 18%;
     border-radius: 8%;
     margin:20px;
-    
-    
 }
 
 .curriculo {
@@ -155,5 +150,4 @@ button {
     color: #a30f0f;
     font-size: 38px;
     list-style: none;
-    
 }
